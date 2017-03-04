@@ -30,7 +30,7 @@ export default{
     .menu{
       width: 180px;
       margin-left: -180px;
-      background:
+      background: #111122
     }
     .content{
       width: 100%;
