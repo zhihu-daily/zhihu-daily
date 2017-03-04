@@ -28,9 +28,9 @@ export default{
     height: 100vh;
     display: flex;
     .menu{
-      width: 180px;
-      margin-left: -180px;
-      background: #111122
+      margin-left: -220px;
+      background: #111122;
+      flex: 0 0 220px;
     }
     .content{
       width: 100%;
