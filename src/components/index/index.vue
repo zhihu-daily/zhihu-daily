@@ -1,12 +1,7 @@
 <template>
-  <div class="index">
-    <div class="menu">
-      我是左侧菜单
-    </div>
-    <div class="content">
-      <v-head></v-head>
-      <v-content></v-content>
-    </div>
+  <div class="index page">
+    <v-head></v-head>
+    <v-content></v-content>
   </div>
 </template>
 
@@ -24,19 +19,5 @@ export default{
 </script>
 
 <style lang="less">
-  .index{
-    height: 100vh;
-    display: flex;
-    .menu{
-      margin-left: -220px;
-      background: #111122;
-      flex: 0 0 220px;
-    }
-    .content{
-      width: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-  }
+
 </style>
