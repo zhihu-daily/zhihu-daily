@@ -1,4 +1,3 @@
-<script src="../../vue_elem/eleme/config/dev.env.js"></script>
 <template>
   <div id="app">
     <transition name="opening">
